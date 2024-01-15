@@ -3,13 +3,8 @@
 @import './partials/variables.scss';
 @import './partials/typography.scss';
 @import './partials/components.scss';
+@import './partials/grid.scss';
 @import './pages/header.scss';
 @import './pages/hero.scss';
 @import './pages/footer.scss';
 
-.container{
-    width: 100%;
-    max-width: 77.875rem;
-    padding: 0 .9375rem;
-    margin: 0 auto;
-}
