@@ -1,0 +1,74 @@
+.btn-primary{
+    display: inline-block;
+    padding: 1rem 1.625rem;
+    border-radius: 7.625rem;
+    background: $brand-yellow;
+    color: $yellow-button;
+    font-family: "poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 100%;
+    transition: .3s ease;
+
+    &:hover{
+        background-color: #FFDC5C;
+    }
+}
+
+.btn-secundary{
+    display: inline-block;
+    padding: 12px 18px;
+    background-color: none;
+    color: $brand-light-blue;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 100%;
+    border-radius: 122px;
+    border: 1px solid $brand-light-blue;
+    transition: .3s ease;
+    
+    &:hover{
+        background-color: $brand-light-blue;
+        color: white;
+    }
+
+    &.white{
+        border: 1px solid white;
+        color: white;
+        background-color: none;
+        &:hover{
+            background-color: white;
+            color: $brand-light-blue;
+        }
+    }
+}
+
+.card-depoimento{
+    width: 100%;
+    max-width: 24rem;
+    height: 13.0625rem;
+    border-radius: 8px;
+    padding: 2.3125rem 2rem 1.4375rem 2rem;
+    background-color: $grey-100;
+    
+    .content{
+        width: 100%;
+        max-width: 308px;
+        .titulo{
+            @include flexCenterJustify;
+            color: $grey-500;
+            margin-bottom: 21px;
+        }
+
+        p{
+            color: $grey-500;
+            font-family:"Inter", sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%;
+        }
+    }
+    
+}

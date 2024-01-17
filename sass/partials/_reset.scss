@@ -2,128 +2,26 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  list-style: none;
-  text-decoration: none;
-  outline: none;
-  border: none;
-  overflow-x: hidden;
-  font-family: 'Inter', sans-serif;
-}
-
-body,
-p,
-h1,
-h2,
-ul,
-li {
-  margin: 0px;
-  padding: 0px;
-}
-
-li {
-  list-style: none;
-}
-
-ol {
-  padding: 0;
-}
-
-a {
-  text-decoration: none;
-}
-
-*::after,
-*::before {
-  box-sizing: border-box;
-}
-
-* {
-  box-sizing: border-box;
-  text-rendering: optimizelegibility;
   -webkit-font-smoothing: antialiased;
+  font-family: 'Inter', sans-serif;
+  // font-family: 'Space Grotesk', sans-serif;
 }
 
-button {
-  background: initial;
-  border: initial;
-  -webkit-appearance: none;
-
-
-  &:active {
-    border-style: initial;
-  }
-
-  &:focus {
-    outline: initial;
-  }
-
-  &[type="button"],
-  &[type="submit"],
-  &[type="reset"] {
-    -webkit-appearance: none;
-
-  }
-
-  &[type="submit"] {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-  }
-
-}
-
-img {
-  display: block;
+img{
   max-width: 100%;
-  object-fit: contain;
-}
-
-fieldset {
-  -webkit-margin-start: 0px;
-  -moz-margin-start: 0px;
-  margin-inline-start: 0px;
-  -webkit-margin-end: 0px;
-  -moz-margin-end: 0px;
-  margin-inline-end: 0px;
-  min-inline-size: -webkit-min-content;
-  min-inline-size: -moz-min-content;
-  min-inline-size: min-content;
-  border-width: 2px;
-  border-style: none;
-  border-color: transparent;
-  border-image: initial;
-}
-
-figure {
   display: block;
-  margin-block-start: 0;
-  margin-block-end: 0;
-  margin-inline-start: 0;
-  margin-inline-end: 0;
 }
 
-
-
-// :focus {
-//   outline: 0px transparent !important;
-// }
-
-
-input[type="submit"] {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+a{
+  display: block;
+  text-decoration: none;
 }
 
-// input {
-//   -webkit-appearance: none;
-
-// }
-
-[type="button"] {
-  -webkit-appearance: none;
+button{
+  all: unset;
+  cursor: pointer;
 }
 
-select {
-  -webkit-appearance: none;
+ul{
+  list-style: none;
 }
