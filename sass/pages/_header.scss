@@ -1,6 +1,10 @@
 header{
-    background-color: $brand-blue;
-    border-bottom: 2px solid #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    
     .header{
         padding: 1.5rem 0;
         @include flexCenterJustify;
@@ -19,7 +23,7 @@ header{
 
                     transition: .3s ease;
                     &:hover{
-                        color: $grey-100;
+                        color: $brand-yellow;
                     }
                 }
             }
