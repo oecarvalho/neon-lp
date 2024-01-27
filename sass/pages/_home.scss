@@ -90,3 +90,77 @@
         }
     }
 }
+
+.s-card-neon{
+    padding-top: 8.0625rem;
+
+    .left-area{
+        width: 100%;
+        max-width: 17.3125rem;
+
+        .ilustra-mockup{
+            width: 100%;
+            max-width: 17.3125rem;
+            position: relative;
+            margin-bottom: 8.0625rem;
+
+            .circle{
+                position: absolute;
+                z-index: -1;
+                top: 40px;
+                max-width: 23.5625rem;
+                left: -10.3125rem;
+            }
+        }
+
+        .text{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            
+            .icon{
+                position: relative;
+                &::before{
+                    content: '';
+                    width: .3125rem;
+                    height: 5.1875rem;
+                    display: inline-block;
+                    background: url(/assets/points.svg) no-repeat center center;
+                    position: absolute;
+                    top: -6.5rem;
+                    left: 50%;
+                    margin-left: -0.1563rem;
+                }
+            }
+
+            .info-txt{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                h3{
+                    margin-top: 2.25rem;
+                    color: $grey-600;
+                }
+
+                p{
+                    color: $grey-400;
+                    font-size: 1rem;
+                    font-weight: 400;
+                    line-height: 150%;
+                    opacity: 0.8;
+                    margin-bottom: 1.625rem;
+                }
+
+                ul{
+                    li{
+                        &:not(:last-child){
+                            margin-bottom: .8125rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
