@@ -318,3 +318,91 @@
         overflow: hidden;
     }
 }
+
+.s-conta-digital{
+    padding-top: 8.125rem;
+
+    .container{
+        display: flex;
+        align-items: center;
+    }
+    .text{
+        width: 100%;
+        max-width: 33.875rem;
+
+        h2{
+            color: $grey-600;
+            margin-bottom: 45px;
+
+            span{
+                display: block;
+                color: $grey-200;
+                margin-bottom: .5625rem;
+            }
+        }
+
+        ul{
+            margin-bottom: 49px;
+
+            li{
+                display: flex;
+                margin-bottom: 37px;
+                gap: 1.625rem;
+
+                .icon{
+                    width: 2.8125rem;
+                    height: 45px;
+                    background: $brand-green-light;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 8px;
+                }
+
+                .info{
+                    h4{
+                        color: $grey-400;
+                        font-weight: 500;
+                        line-height: 112%; /* 22.4px */
+                        letter-spacing: -0.5px;
+                    }
+
+                    p{
+                        color: $grey-300;
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 150%; /* 27px */
+                    }
+                }
+            }
+        }
+    }
+
+    .image{
+        position: relative;
+        width: 100%;
+        max-width: 44.5rem;
+        height: 37.375rem;
+        margin-right: -2.375rem;
+        left: 7.8125rem;
+        img{
+            position: absolute;
+            &.mockup-01{
+                left: 0;
+                bottom: 2.9375rem;
+                z-index: 2;
+            }
+
+            &.mockup-02{
+                top: .1875rem;
+                left: 15.625rem;
+                z-index: 1;
+            }
+
+            &.circle{
+                right: 0;
+                bottom: 0;
+            }
+        }
+    }
+}
