@@ -410,7 +410,7 @@
 footer{
     background: $brand-blue;
     padding-top: 3.0625rem;
-    padding-bottom: 2.375rem;
+    
 
     .top{
         @include flexCenterJustify;
@@ -515,12 +515,16 @@ footer{
     .msg{
         display: flex;
         align-items: flex-start;
-        width: 100%;
-        max-width: 41.25rem;
         gap: 24px;
-        color: white;
-        font-size: 14px;
-        line-height: 150%;
-        opacity: 0.8;
+        border-bottom: 4px solid $brand-yellow;
+        padding-bottom: 2.375rem;
+        p{
+            width: 100%;
+            max-width: 41.25rem;
+            color: white;
+            font-size: 14px;
+            line-height: 150%;
+            opacity: 0.8;
+        }
     }
 }
