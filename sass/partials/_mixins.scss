@@ -13,18 +13,9 @@
     justify-content: space-between;
 }
 
-$breakpoints: (
-    'laptop': 1200px,
-    'tablet': 991px,
-    'mobile': 560px
-);
-
 @mixin responsivo($breakpoint-name){
-    @if map-has-key($breakpoints, $breakpoint-name){
-        @media(max-width: map-get($breakpoints, $breakpoint-name)){
-            @content;
-        }
-    } @else{
-        @warn 'Este breakpoint não existe!';
+   
+    @media(max-width: $breakpoint-name){
+         @content;
     }
 }
